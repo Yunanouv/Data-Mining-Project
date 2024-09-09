@@ -16,6 +16,5 @@ The submission you need to generate for each task is generally a brief report do
 
 **Answer**  
 <img width="489" alt="image" src="https://github.com/user-attachments/assets/88c113f0-11d3-4bb7-9415-936ccb061088">  
-[Link](file:///D:/LEARNING%20AND%20COURSES/COURSERA/Data%20Mining%20Specialization/6.%20Data%20Mining%20Project/yelp_dataset_challenge_academic_dataset/tes.html)
 
 This is the visualization of what people have talked about in restaurant reviews using LDA.
