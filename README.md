@@ -31,9 +31,11 @@ Here's the visualization of the topic clusters. The visualization provides a cle
 ![task1 1-topic clusters](https://github.com/user-attachments/assets/8ed19c46-3440-4c91-849f-2e4f63e0dae3)
 <br>
 
-Then, let's take a look at the sample restaurant we have. We chose 3 restaurants for Mexican food to see how the reviews were. They are Filiberto's Mexican Food, Elvira's Mexican Food, and Carolina's Mexican Food. The dendrogram shows the topics that are most frequently reviewed by the customers from each rating, 1 to 5.  
+Then, let's take a look at the sample restaurant we have. We chose 3 restaurants for Mexican food to see how the reviews were. They are Filiberto's Mexican Food, Elvira's Mexican Food, and Carolina's Mexican Food. The dendrogram shows the topics that are most frequently reviewed by the customers from each rating, 1 to 5 using the LDA model after preprocessing the data.  
 <br>
 <img width="410" alt="task1 2-3samplerestaurants" src="https://github.com/user-attachments/assets/a90b458a-5638-4d9a-bd48-f35a94951833">
 
 <br>
 
+### Step 2  
+In this step, we will work on mining this data set to discover knowledge about cuisines. In the Yelp data set, businesses are tagged with categories. For example, the category "restaurant" identifies all the restaurants. Specific restaurants are also tagged with cuisines (e.g., "Indian" or "Italian"). This provides an opportunity to aggregate all the information about a particular cuisine and obtain an enriched representation of a cuisine using, for example, review text for all the restaurants of a particular cuisine. Such a representation can then be exploited to assess the similarity between two cuisines, which further enables the clustering of cuisines.
