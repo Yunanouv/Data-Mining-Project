@@ -85,3 +85,50 @@ Once we have a list of dish names, it is likely that many dish names are still m
 - Training the Word2Vec model using the total corpus.   
 - Word2Vec captures semantic relationships between words based on their context within a large corpus of text. This means that words with similar meanings are mapped to nearby points in the vector space. Since we have a 1,527,498 corpus size from review and tip datasets, Word2Vec is the right approach.
 - We got the expanded list of dish   
+
+## 4. Ranking of the Dishes  
+In this task, we will create a visualization showing a ranking of the dishes for a Yelp cuisine of our choice. In the task 3, we chose to work on American cuisine, so we will deep dive into this cuisine.  
+
+###  Step 1: Frequency Count to Select Top 50 Dishes  
+Count mentions for each dish in the American cuisine reviews and select the top 100 dishes.
+
+### Step 2: Weighted Frequency by Rating  
+Rank the dishes only using the frequency count seems not relatively correct because it can caused by many factors, maybe positive review pr negative reviews. So, we will calculate an average weighted frequency for each dish, multiplying each mention by the rating (e.g. 1 star: 100x1=100, 2 stars: 60x2=120, etc).
+
+### Step 3: Visualize Rating Distribution for Each Dish  
+Then, we visualized the top 50 dishes based on the frequency count and the average rating (1 of 5) and then selected the top 20 to see the star distribution (from 1 to 5) like the images below.
+<br>
+![top50dish_average rating](https://github.com/user-attachments/assets/ab758f7f-14be-4689-8607-1b6a2c81a6a7)
+<br>
+Based on the visualization of the top 50 dishes for American (New) cuisine by mention count and average star rating, here are some key insights:  
+
+**1. Most Popular Dishes by Mention Count**:  
+Rice, Cheese, and Chicken are the top three most mentioned dishes, indicating that these items are highly popular and frequently reviewed within this cuisine. Other dishes like Burger, Appy, and Bread also have high mention counts, suggesting they are staple items in American (New) cuisine.  
+
+**2. Average Star Ratings Across Dishes**:  
+Fanta and Scallops received the highest average star ratings, with 4.32 and 4.12 respectively. These items may be associated with positive experiences among reviewers, as they stand out for their higher ratings.  
+
+**3. Distribution of Mention Count vs. Average Rating**:  
+High mention counts do not necessarily correlate with high ratings. For example, Rice has one of the highest mention counts but a moderate average rating of 3.60. Conversely, Scallops has a high average rating but a lower mention count, suggesting it may be highly regarded by a smaller group of reviewers.
+
+**4. Variety in Popular Dishes**:
+The list includes a mix of both entrees (e.g., Steak, Burger) and side dishes/snacks (e.g., Fries, Cheese). This suggests that American (New) cuisine reviews cover a broad range of meal types, indicating varied consumer interests. Dessert items like Chocolate, Cheesecake, and Ice Cream appear frequently, suggesting a strong preference for sweet dishes in American dining experiences.
+<br>
+![top20_dish_ranking_visualization](https://github.com/user-attachments/assets/c690a709-6a03-4bef-ae84-eb0d4100704c)
+<br>
+Here are some key insights based on the rating distribution by stars for the top 20 dishes in American (New) cuisine:
+
+**1. Diverse Rating Distribution Across Popular Dishes**:  
+Most dishes have a significant portion of 4 and 5-star ratings, showing overall customer satisfaction. For instance, Rice has 24.8% 5-star ratings and 35.0% 4-star ratings, making it a well-liked dish despite lower ratings in other categories. Dishes like Fanta and Cake have higher percentages of 5-star ratings (52.0% and 34.5% respectively), indicating that these items receive a higher level of customer appreciation relative to other dishes.  
+
+**2. High Variability in Customer Preferences**:  
+Some dishes, such as Gin and Tart, exhibit a more balanced rating distribution across all star categories. This suggests a varied response, potentially reflecting differences in taste preferences or quality consistency.   
+
+**3. Strength in Dessert and Snack Items**:
+Dessert items like Cake, Appetizer, and Fries generally receive more favorable ratings, with a good proportion of 4 and 5-star ratings. This might indicate a preference for sweet and snack items in American (New) cuisine. Fanta stands out with a substantial 52.0% in the 5-star category, suggesting a strong positive response for this beverage item.
+
+### Step 4: Sentiment Analysis on Dish Mentions  
+Analyze sentiment for sentences mentioning each dish and add sentiment scores to our ranking. We used VADER (Valence Aware Dictionary and Sentiment Reasoner). VADER is a popular tool for sentiment analysis, especially well-suited for social media text, reviews, and other types of informal language.
+<img width="159" alt="image" src="https://github.com/user-attachments/assets/a0579199-5d3f-4be8-a162-4f6134ddabca">  
+<br>
+Based on the sentiment analysis score, we can conclude that there is generally an alignment between the average star ratings and sentiment analysis scores for the dishes.
