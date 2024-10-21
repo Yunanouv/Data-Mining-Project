@@ -115,7 +115,8 @@ High mention counts do not necessarily correlate with high ratings. For example,
 The list includes a mix of both entrees (e.g., Steak, Burger) and side dishes/snacks (e.g., Fries, Cheese). This suggests that American (New) cuisine reviews cover a broad range of meal types, indicating varied consumer interests. Dessert items like Chocolate, Cheesecake, and Ice Cream appear frequently, suggesting a strong preference for sweet dishes in American dining experiences.
 <br>
 ![top20_dish_ranking_visualization](https://github.com/user-attachments/assets/c690a709-6a03-4bef-ae84-eb0d4100704c)
-<br>
+
+
 Here are some key insights based on the rating distribution by stars for the top 20 dishes in American (New) cuisine:
 
 **1. Diverse Rating Distribution Across Popular Dishes**:  
@@ -134,6 +135,38 @@ Analyze sentiment for sentences mentioning each dish and add sentiment scores to
 Based on the sentiment analysis score, we can conclude that there is generally an alignment between the average star ratings and sentiment analysis scores for the dishes.
 
 ## 5. Restaurants Recommendation  
-In this task, our goal is to recommend good restaurants to those who would like to try one or more dishes in a cuisine. In this case, we will work on American (New) Cuisine.
-Given a particular dish, the general idea of solving this problem is to assess whether a restaurant is good for this dish based on whether the reviews of a candidate restaurant have included many positive (and very few negative) comments about the dish.
-Something to consider is to make our visualization general enough such that it could be used in a search engine or system and generate something useful for the users by recommending popular restaurants based on different dishes.  
+In this task, our goal is to recommend good restaurants to those who would like to try one or more dishes in a cuisine. In this case, we will work on American (New) Cuisine for Burger and Chicken.
+
+Given a particular dish, the general idea of solving this problem is to assess whether a restaurant is good for this dish based on the reviews of a candidate restaurant. Something to consider is to make our visualization general enough that it could be used in a search engine or system and generate something useful for users by recommending popular restaurants based on different dishes.  
+
+### 5.1. Top Restaurants in American (New) Cuisine  
+<br>
+<img width="528" alt="Top 10 Restaurants in American Cuisine" src="https://github.com/user-attachments/assets/3866470c-0b3e-4390-99ab-7631e72e3dc7">
+
+The restaurants are recommended based on ratings and reviews. If we give the recommendation based on the highest reviews, many restaurants have an average rating of less than 4. So, the high ratings may help people to try new restaurants in American cuisine.  
+
+### 5.2. Top Restaurants for Burger  
+For restaurant recommendations for burgers, we tried to give 2 perspectives: based on reviews then calculating the average rating and based on high ratings then reviews.  
+
+**Restaurants for Burger Based on Reviews**  
+<br>
+![top 25 burger restaurants](https://github.com/user-attachments/assets/34e2cf3d-d228-4525-a19c-5904bff33ed8)
+From the chart above we found 25 restaurants with hot topics, but the rating seems low. It shows that many customers have their own opinions about the burgers.  
+
+**Restaurants for Burger Based on Ratings**  
+<br>
+<img width="854" alt="top 10 restaurants for burger" src="https://github.com/user-attachments/assets/2bba9141-c8d4-4b22-aa1f-0b734442b6c4">
+These recommendations are based on the high rating first then consider the review count, making the restaurants not only have the high rating but can be recommended based on burger and total reviews.  
+
+### 5.3. Top Restaurants for Chicken  
+We also do the same for restaurants' recommendations for chicken.  
+
+**Restaurants for Chicken Based on Reviews**  
+<br>
+![top 25 chicken restaurants](https://github.com/user-attachments/assets/b47ba364-73c6-4126-b88a-186d447752d9)
+The same thing also happened to restaurants that have many reviews but low ratings. This may be due to the popularity of the restaurant but after trying it, many customers are dissatisfied.  
+
+**Restaurants for Chicken Based on Ratings**  
+<br>
+<img width="754" alt="top 10 restaurants for chicken" src="https://github.com/user-attachments/assets/fc61cef0-4f11-4282-b069-65cb146bbc82">
+So, we take a recommendation based on high ratings and reviews to give recommendations for people to try. 
