@@ -132,3 +132,8 @@ Analyze sentiment for sentences mentioning each dish and add sentiment scores to
 <img width="159" alt="image" src="https://github.com/user-attachments/assets/a0579199-5d3f-4be8-a162-4f6134ddabca">  
 <br>
 Based on the sentiment analysis score, we can conclude that there is generally an alignment between the average star ratings and sentiment analysis scores for the dishes.
+
+## 5. Restaurants Recommendation  
+In this task, our goal is to recommend good restaurants to those who would like to try one or more dishes in a cuisine. In this case, we will work on American (New) Cuisine.
+Given a particular dish, the general idea of solving this problem is to assess whether a restaurant is good for this dish based on whether the reviews of a candidate restaurant have included many positive (and very few negative) comments about the dish.
+Something to consider is to make our visualization general enough such that it could be used in a search engine or system and generate something useful for the users by recommending popular restaurants based on different dishes.  
