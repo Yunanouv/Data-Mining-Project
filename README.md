@@ -142,7 +142,7 @@ Given a particular dish, the general idea of solving this problem is to assess w
 
 ### 5.1. Top Restaurants in American (New) Cuisine  
 <br>
-<img width="528" alt="Top 10 Restaurants in American Cuisine" src="https://github.com/user-attachments/assets/3866470c-0b3e-4390-99ab-7631e72e3dc7">
+<img width="528" alt="Top 10 Restaurants in American Cuisine" src="https://github.com/user-attachments/assets/605c1fa0-8d01-4dc2-9034-8a8f1d987243">  
 
 The restaurants are recommended based on ratings and reviews. If we give the recommendation based on the highest reviews, many restaurants have an average rating of less than 4. So, the high ratings may help people to try new restaurants in American cuisine.  
 
