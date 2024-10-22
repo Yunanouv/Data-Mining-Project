@@ -22,8 +22,8 @@ From all the restaurant's data, we chose 10 samples of topics as shown by the ra
 
 <img width="489" alt="image" src="https://github.com/user-attachments/assets/88c113f0-11d3-4bb7-9415-936ccb061088">  
 
-Here's the visualization of the topic clusters. The visualization provides a clear overview of how often each topic appears in the dataset and their relative importance. This can help identify key themes and topics of interest within the text data, guiding further analysis or action based on the prominence of each topic.
-<br>
+Here's the visualization of the topic clusters. The visualization provides a clear overview of how often each topic appears in the dataset and their relative importance. This can help identify key themes and topics of interest within the text data, guiding further analysis or action based on the prominence of each topic.  
+
 ![task1 1-topic clusters](https://github.com/user-attachments/assets/8ed19c46-3440-4c91-849f-2e4f63e0dae3)
 <br>
 
@@ -66,8 +66,7 @@ Here are the samples of similar categories and the topic based on their reviews.
 
 | Japanese-Sushi                          | Italian-Pizza                           |
 | ----------------------------------- | ----------------------------------- |
-| ![Screenshot 2024-10-02 212257](https://github.com/user-attachments/assets/1cd53172-1577-40cd-a1e5-ed7994e537b3) |![Screenshot 2024-10-02 212147](https://github.com/user-attachments/assets/900180e6-6333-410f-9ab5-2de7643bda57)
-|  
+| ![Screenshot 2024-10-02 212257](https://github.com/user-attachments/assets/1cd53172-1577-40cd-a1e5-ed7994e537b3) |![Screenshot 2024-10-02 212147](https://github.com/user-attachments/assets/900180e6-6333-410f-9ab5-2de7643bda57)  
 
 From the samples above, now we know what common topics in the categories make them similar, such as the main menu, reviews, or the restaurants' services.
 
