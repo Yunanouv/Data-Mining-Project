@@ -1,5 +1,5 @@
 # Data-Mining-Project
-This is an *on-going* data mining project from the University of Illinois Urbana-Champaign from Coursera using [Yelp Dataset]()
+This is a data mining project from the University of Illinois Urbana-Champaign from Coursera using [Yelp Dataset]()
 
 ## Overview
 The goal of the Data Mining Project is to provide us with an opportunity to synthesize the knowledge and skills we’ve learned from the courses and apply them to solve real-world data mining challenges. We will be given a restaurant review data set from Yelp and mine this dataset to discover interesting and useful knowledge to help people make dining decisions, including constructing a cuisine map to help people understand the landscape of different cuisines, mining popular dishes of a given cuisine, recommending (i.e., ranking) restaurants for a given dish, and predicting hygiene of a restaurant.
