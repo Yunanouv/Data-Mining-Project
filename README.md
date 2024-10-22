@@ -129,7 +129,8 @@ Some dishes, such as Gin and Tart, exhibit a more balanced rating distribution a
 Dessert items like Cake, Appetizer, and Fries generally receive more favorable ratings, with a good proportion of 4 and 5-star ratings. This might indicate a preference for sweet and snack items in American (New) cuisine. Fanta stands out with a substantial 52.0% in the 5-star category, suggesting a strong positive response for this beverage item.
 
 ### Step 4: Sentiment Analysis on Dish Mentions  
-Analyze sentiment for sentences mentioning each dish and add sentiment scores to our ranking. We used VADER (Valence Aware Dictionary and Sentiment Reasoner). VADER is a popular tool for sentiment analysis, especially well-suited for social media text, reviews, and other types of informal language.
+Analyze sentiment for sentences mentioning each dish and add sentiment scores to our ranking. We used VADER (Valence Aware Dictionary and Sentiment Reasoner). VADER is a popular tool for sentiment analysis, especially well-suited for social media text, reviews, and other types of informal language.  
+<br>
 <img width="159" alt="image" src="https://github.com/user-attachments/assets/a0579199-5d3f-4be8-a162-4f6134ddabca">  
 <br>
 Based on the sentiment analysis score, we can conclude that there is generally an alignment between the average star ratings and sentiment analysis scores for the dishes.
@@ -155,7 +156,7 @@ From the chart above we found 25 restaurants with hot topics, but the rating see
 
 **Restaurants for Burger Based on Ratings**  
 <br>
-<img width="854" alt="top 10 restaurants for burger" src="https://github.com/user-attachments/assets/2bba9141-c8d4-4b22-aa1f-0b734442b6c4">
+![Picture1](https://github.com/user-attachments/assets/1d522b34-37b3-4442-9b39-f5939ff56bee)  
 These recommendations are based on the high rating first then consider the review count, making the restaurants not only have the high rating but can be recommended based on burger and total reviews.  
 
 ### 5.3. Top Restaurants for Chicken  
@@ -168,5 +169,5 @@ The same thing also happened to restaurants that have many reviews but low ratin
 
 **Restaurants for Chicken Based on Ratings**  
 <br>
-<img width="754" alt="top 10 restaurants for chicken" src="https://github.com/user-attachments/assets/fc61cef0-4f11-4282-b069-65cb146bbc82">
+![Picture2](https://github.com/user-attachments/assets/d674ae6a-c5b2-4db0-ae43-68972039571e)  
 So, we take a recommendation based on high ratings and reviews to give recommendations for people to try. 
